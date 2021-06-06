@@ -1,0 +1,43 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.user {
+  color: blue;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.user-after {
+  border: 1px solid orange;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cont {
+  /* width: 80%;  */
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+.bn {
+  outline: none;
+  border: none;
+  background-color: #0250c5;
+  color: white;
+  margin-bottom: 30px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.bn:hover {
+  color: #0250c5;
+  background: #fff;
+  border: 1px solid #0250c5;
+}
